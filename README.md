@@ -6,9 +6,9 @@
 
 ## Demonstration
 
-[![Quadruped robot and mapping results in the demonstration video](assets/demo-cover.jpg)](assets/slam-demo.mp4)
+[![Quadruped robot and mapping results in the demonstration video](assets/demo-cover.jpg)][demo]
 
-[Watch or download the full demonstration](assets/slam-demo.mp4). The video shows quadruped locomotion and mapping results, including visual comparisons with FAST-LIO, Point-LIO and KILO-Map.
+[Download the full demonstration (196 MiB)][demo]. The video shows quadruped locomotion and mapping results, including visual comparisons with FAST-LIO, Point-LIO and KILO-Map. GitHub does not preview the full-size video on the file page.
 
 The original video is stored with Git LFS. After cloning, use `git lfs pull` if the video has not been downloaded automatically.
 
@@ -44,4 +44,6 @@ This repository currently contains the project overview and demonstration. Sourc
 
 实验在真实室内场景中沿 3F → 2F → 1F 路线进行。三个楼层稳定区间的平均垂直位置标准差为 **0.0832 m**，平均垂直漂移斜率为 **0.3520 cm/10 m**。由于实验缺少独立的绝对高度参考，楼层高度分析侧重相对顺序和间隔，而非绝对高度精度。
 
-目前仓库提供项目简介和[完整演示视频](assets/slam-demo.mp4)，暂不包含源代码和实验数据集。
+目前仓库提供项目简介和[完整演示视频下载][demo]，暂不包含源代码和实验数据集。由于视频体积较大，GitHub 文件页面无法直接预览，点击链接可下载原视频。
+
+[demo]: https://github.com/Gguocp2132/Quadruped-Multi-Floor-SLAM/raw/refs/heads/main/assets/slam-demo.mp4
